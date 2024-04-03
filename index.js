@@ -21,6 +21,10 @@ import defined from "terriajs-cesium/Source/Core/defined";
 import loadPlugins from "./lib/Core/loadPlugins";
 import plugins from "./plugins";
 
+import { PublicClientApplication } from '@azure/msal-browser';
+import { MsalProvider } from '@azure/msal-react';
+import { msalConfig } from './authConfig';
+
 // Register all types of catalog members in the core TerriaJS.  If you only want to register a subset of them
 // (i.e. to reduce the size of your application if you don't actually use them all), feel free to copy a subset of
 // the code in the registerCatalogMembers function here instead.
@@ -45,6 +49,9 @@ registerCustomComponentTypes(terria);
 const viewState = new ViewState({
   terria: terria
 });
+
+
+const msalInstance = new PublicClientApplication(msalConfig);
 
 registerCatalogMembers();
 // Register custom search providers in the core TerriaJS. If you only want to register a subset of them, or to add your own,
