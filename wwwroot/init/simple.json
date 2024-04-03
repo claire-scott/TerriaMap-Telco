@@ -69,6 +69,12 @@
       "url": "https://gis.aremi.data61.io/bom/wms"
     },
     {
+      "id": "3chNzj13TC",
+      "type": "wms-group",
+      "name": "WMS layers for the GEOScience NSW.",
+      "url": "https://gs.geoscience.nsw.gov.au/geoserver/ows?service=WMS"
+    },
+    {
       "type": "magda",
       "url": "https://data.gov.au",
       "name": "Magda Item",

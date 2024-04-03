@@ -16,7 +16,7 @@ body {
 
   // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
   // You will also want to uncomment and change values in lib/Styles/variables.scss
-  /*
+  
     // Import any custom fonts here
     //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
@@ -35,7 +35,7 @@ body {
         }
         // Different font size for the branding
         font-weight: 300;
-        color: white;
+        color: #002664;
         font-size: 26px;
         padding-top:2px;
         padding-left:6px;
@@ -45,8 +45,10 @@ body {
         // background-position: top right;
         // background-size: 100%;
         // background-repeat: no-repeat;
+        background-color: white;
 
     }
+    /*
     // Background of whole left panel
     .tjs-standard-user-interface__sidePanel {
         background:$dark-darker;
