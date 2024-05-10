@@ -21,6 +21,10 @@
     "gov",
     "gov.uk",
     "gov.nz",
-    "services.aremi.data61.io"
+    "services.aremi.data61.io",
+    "localhost",
+    "rosencrantz.local:8080",
+    "rosencrantz.local",
+    "192.168.1.160"
   ]
 }
